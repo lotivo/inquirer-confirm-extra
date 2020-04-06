@@ -1,0 +1,42 @@
+{
+  "name": "inquirer-confirm-extra",
+  "version": "1.0.0",
+  "description": "Inquirer Confirm prompt with validation, default and other",
+  "keywords": [
+    "inquirer-confirm",
+    "inquirer-confirm-validated",
+    "inquirer",
+    "confirm",
+    "validated"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:manual",
+    "test:manual": "node test/manual",
+    "test:debug": "node --inspect test/manual", 
+    "debug": "node --nolazy --inspect-brk=9228 test/manual"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "inquirer": "^7.1.0",
+    "rxjs": "^6.5.5"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "inquirer": "^7.1.0"
+  },
+  "deprecated": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotivo/inquirer-confirm-extra.git"
+  },
+  "author": "Pankaj Vaghela <vpankaj1998official@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lotivo/inquirer-confirm-extra/issues"
+  },
+  "homepage": "https://github.com/lotivo/inquirer-confirm-extra#readme"
+}
