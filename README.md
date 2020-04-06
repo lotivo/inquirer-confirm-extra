@@ -16,10 +16,10 @@ Basically a regular confirm with regular options of prompt implemented.
 ## Example Usage
 
 ```js
-inquirer.registerPrompt('confirm-validated', require('inquirer-confirm-extra'));
+inquirer.registerPrompt('confirm-extra', require('inquirer-confirm-extra'));
 
 inquirer.prompt({
-  type: 'confirm-validated',
+  type: 'confirm-extra',
   defaultValue: false,
   validate(val, answers) {
     if (!val) {
@@ -37,6 +37,10 @@ This package is built upon existing package [inquirer-confirm-validated](https:/
 
 It also hasn't been updated since 2 years and there was no repo link or I would have sent PR.
 
+## License
+
+(MIT)
+
 ## Contribution
 
-Feel free to send PR for adding extra options
+Feel free to send PR for adding extra options or if you wants to add tests.
