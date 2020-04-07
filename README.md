@@ -5,6 +5,17 @@ A plugin for [Inquirer](https://github.com/SBoudrias/Inquirer.js), adding valida
 
 Basically a regular confirm with regular options of prompt implemented.
 
+## Install
+
+(npm)[https://www.npmjs.com/package/inquirer-confirm-extra] : 
+```js
+npm i inquirer-confirm-extra
+```
+yarn : 
+```js
+yarn add inquirer-confirm-extra
+```
+
 ## Options
 
 **validate** (Function) : Function for validation same as normal prompt validation function
