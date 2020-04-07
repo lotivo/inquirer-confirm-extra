@@ -7,7 +7,7 @@ Basically a regular confirm with regular options of prompt implemented.
 
 ## Install
 
-(npm)[https://www.npmjs.com/package/inquirer-confirm-extra] : 
+[npm](https://www.npmjs.com/package/inquirer-confirm-extra) : 
 ```js
 npm i inquirer-confirm-extra
 ```
